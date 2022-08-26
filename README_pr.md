@@ -6,20 +6,20 @@
   
 Module to work with SAP Web Service of Cloud Shore  
 
-## How to install this module
+## Como instalar este módulo
   
-__Download__ and __install__ the content in 'modules' folder in Rocketbot path  
+__Baixe__ e __instale__ o conteúdo na pasta 'modules' no caminho do Rocketbot  
 
 
 
 ## Overview
 
 
-1. Setup  
-Configure the service to be used
+1. Configuração  
+Configure o serviço que será utilizado
 
-2. Execute service  
-Consume service selected in the previous command  
+2. Executar serviço  
+Consome o serviço selecionado no comando anterior  
 
 
 

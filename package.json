@@ -56,7 +56,8 @@
                         "placeholder": "Matt",
                         "title": {
                             "en": "Select the service",
-                            "es": "Seleccione el servicio"
+                            "es": "Seleccione el servicio",
+                            "pr": "Selecione o serviço"
                         },
                         "description": {
                             "es": "Digital Worker que se desea consumir",
@@ -88,11 +89,13 @@
                         "type": "input",
                         "placeholder": {
                             "en": "default",
-                            "es": "default"
+                            "es": "default",
+                            "pr": "default"
                         },
                         "title": {
                             "en": "Identifier (optional)",
-                            "es": "Identificador (Opcional)"
+                            "es": "Identificador (opcional)",
+                            "pr": "Identificador (opcional)"
                         },
                         "description": {
                             "es": "Identificador para servicio conectado",
@@ -106,11 +109,13 @@
                         "type": "input",
                         "placeholder": {
                             "en": "result",
-                            "es": "result"
+                            "es": "result",
+                            "pr": "result"
                         },
                         "title": {
                             "en": "Assign result to the variable:",
-                            "es": "Asignar resultado a la variable:"
+                            "es": "Asignar resultado a la variable:",
+                            "pr": "Atribuir resultado à variável:"
                         },
                         "description": {
                             "es": "Variable donde se almacenará el resultado",
@@ -149,6 +154,12 @@
                 "title_options": "Seleccione una opción",
                 "options": null
             },
+            "pr": {
+                "title": "Executar serviço",
+                "description": "Consome o serviço selecionado no comando anterior",
+                "title_options": "Selecione uma opção",
+                "options": null
+            },
             "form": {
                 "css": "modal-lg",
                 "inputs": [
@@ -156,7 +167,8 @@
                         "type": "html",
                         "title": {
                             "es": "Seleccione el método que desea usar",
-                            "en": "Select the method that you want to use"
+                            "en": "Select the method that you want to use",
+                            "pr": "Selecione o método que você deseja usar"
                         },
                         "description": {
                             "es": "Componente del Digital worker a ejecutar",
@@ -173,7 +185,8 @@
                         "placeholder": "variable",
                         "title": {
                             "en": "Variable name where the result will be saved",
-                            "es": "Nombre de la variable donde se guardará el resultado"
+                            "es": "Nombre de la variable donde se guardará el resultado",
+                            "pr": "Nome da variável onde o resultado será salvo"
                         },
                         "description": {
                             "es": "Variable donde se almacenará el resultado",
@@ -188,7 +201,8 @@
                         "type": "input",
                         "placeholder": {
                             "en": "Username",
-                            "es": "Usuario"
+                            "es": "Usuario",
+                            "pr": "Nome de usuário"
                         },
                         "title": {
                             "en": "SAP Username",
@@ -207,11 +221,13 @@
                         "type": "input",
                         "placeholder": {
                             "en": "Password",
-                            "es": "Contraseña"
+                            "es": "Contraseña",
+                            "pr": "Senha"
                         },
                         "title": {
                             "en": "SAP Password",
-                            "es": "Contraseña SAP"
+                            "es": "Contraseña SAP",
+                            "pr": "Senha SAP"
                         },
                         "id": "password",
                         "css": "col-md-4"
@@ -220,11 +236,13 @@
                         "type": "checkbox",
                         "placeholder": {
                             "en": "true",
-                            "es": "true"
+                            "es": "true",
+                            "pr": "true"
                         },
                         "title": {
                             "en": "Excel file output",
-                            "es": "Generar archivo Excel"
+                            "es": "Generar archivo Excel",
+                            "pr": "Saída de arquivo do Excel"
                         },
                         "id": "excelFileOutput",
                         "css": "col-md-4"
@@ -234,7 +252,8 @@
                         "placeholder": "excelFile.xlsx",
                         "title": {
                             "en": "Select excel file",
-                            "es": "Seleccione archivo excel"
+                            "es": "Seleccione archivo excel",
+                            "pr": "Selecione o arquivo excel"
                         },
                         "id": "excelFile",
                         "css": "col-md-12"
@@ -244,7 +263,8 @@
                         "placeholder": "SettingFile.xlsx",
                         "title": {
                             "en": "Select setting file",
-                            "es": "Seleccionar archivo de configuración"
+                            "es": "Seleccionar archivo de configuración",
+                            "pr": "Selecione o arquivo de configuração"
                         },
                         "id": "settingFile",
                         "css": "col-md-12"
@@ -254,7 +274,8 @@
                         "placeholder": "/path/to/folder",
                         "title": {
                             "en": "Folder where the files will be saved",
-                            "es": "Carpeta donde guardar los archivos de resultantes"
+                            "es": "Carpeta donde guardar los archivos de resultantes",
+                            "pr": "Pasta onde os arquivos serão salvos"
                         },
                         "id": "folder",
                         "css": "col-md-12"
