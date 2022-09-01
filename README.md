@@ -2,7 +2,7 @@
 
 
 
-# Cloud Shore
+# CloudShore
   
 Module to work with SAP Web Service of CloudShore  
 
