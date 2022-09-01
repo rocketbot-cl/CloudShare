@@ -4,7 +4,7 @@
 
 # Cloud Shore
   
-Module to work with SAP Web Service of Cloud Shore  
+Module to work with SAP Web Service of CloudShore  
 
 ## How to install this module
   
